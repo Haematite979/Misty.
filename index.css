@@ -1,0 +1,290 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow-x: hidden;
+    background-color: #ece4ec;
+}
+*{
+    cursor: default;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+}
+nav{
+    width: 100vw;
+    background: #ece4ec;
+    padding: 20px 50px;
+}
+nav h2{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+nav h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    right: 220px;
+    margin-top: -20px;
+    font-size: 14px;
+}
+button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: black;
+    color: whitesmoke;
+    float: right;
+    margin-right: 100px;
+    margin-top: -30px;
+   
+}
+.first{
+    width: 100%;
+    height: 90vh;
+    background: #cfcce9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.first img{
+    margin: 70px;
+    float: right;
+    border-radius: 20px;
+}
+.first .info h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.first .info span{
+    font-size: 30px;
+    display: block;
+}
+.first .info{
+    max-width: 550px;
+    position: absolute;
+    margin: 140px;
+}
+.first .info button{
+    position: absolute;
+    background: pink;
+    color: black;
+    padding: 12px 60px;
+    letter-spacing: 0.8px;
+    transition: 0.5s ease-in-out;
+    border-radius: 25px;
+
+}
+.first .info button:hover{
+    background: black;
+    color: pink;
+}
+.second{
+    background-color: burlywood;
+    height: 650px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    
+}
+.second .info{
+    background: transparent;
+    height: 750px;
+    width: 40%;
+    float: right;
+    position: relative;
+    margin-top: 80px;
+    
+}
+.second h1 {
+    font-weight: 300;
+}
+.second h2{
+    font-weight: 200;
+}
+.third{
+    background-color: rgb(66, 66, 66);
+    height: 250px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.third .info{
+    height: 150px;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 80px;
+}
+.third .info h3{
+    font-weight: 200;
+}
+.fourth{
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    padding: 0px 20px;
+    display: flexbox;
+    margin: auto;
+    margin-top: 251px;
+    padding-left: 70px;
+}
+.fourth h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: -70px;
+    
+}
+.fourth .box{
+    width: 20%;
+    height: 300px;
+    background: #84914d;
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    border-radius: 40px;
+    padding: 50px;
+    animation: 2s ease infinite alternate bounce;
+
+}
+@keyframes bounce {
+    0%{transform: translateY(40px);}
+    100%{transform: translateY(-40px);}
+}
+.fourth .box .details{
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.fourth img{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: -70px;
+    border-top: 1px solid black;
+}
+.fifth{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: #cfcce9;
+    padding: 50px;
+    margin-top: -10px;
+    display: flexbox;
+    border: 1px solid black;
+}
+.fifth h1{
+    font-weight: 200;
+}
+.review{
+    max-width: 300px;
+    margin-top: 40px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.sixth{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+.sixth .left{
+    padding-left: 70px;
+    padding-top: 200px;
+    float: left;
+    width: 50%;
+}
+.sixth button{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+.sixth h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+.sixth span{
+   max-width: 100px; 
+   font-weight: 300;
+
+}
+.sixth img{
+    float: right;
+    height: 500px;
+    width: 50%;
+    position: absolute;
+}
+.seventh{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 1000px;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.seventh h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+}
+.seventh .question{
+    width: 40%;
+    padding: 5px;
+    border-bottom: 1px inset black;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.seventh img{
+    height: 300px;
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    top: -200px;
+    right: 50px;
+}
+.seventh h2{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 180px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.update-box{
+    width: 1200px;
+    height: 270px;
+    margin: auto;
+    background: #84914d;
+    position: relative;
+    top: 250px;
+    border-radius: 20px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+}
+.footer h1{
+    font-weight: 200;
+}
+.footer h2{
+    font-size: 13px;
+    float: inline-start;
+    font-weight: 300;
+}
+.footer .right{
+    float: right;
+    margin-right: 150px;
+    font-size: 13px;
+}
